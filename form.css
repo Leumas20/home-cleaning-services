@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.details{
+    background-color: rgb(84, 163, 163);
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+form{
+    justify-items: center;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.ones input{
+    height: 30px;
+    width: 100%;
+}
+
+.btn{
+    background-color:#182338;
+    height: 30px;
+    width: 30%;
+    font-size: 1em;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

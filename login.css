@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #17162e;
+}
+
+.loginbox {
+    position: relative;
+    width: 500px;
+    /* background: blueviolet; */
+}
+
+.loginbox form{
+    width: 100%;
+    padding: 0 50px;
+}
+
+p{
+    font-size: 2em;
+    text-align: center;
+    color: #24b5a7 ;
+}
+
+.inputb{
+    position: relative;
+    margin: 25px 0;
+}
+
+.inputb input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #24b5a7;
+    outline: none;
+    color: white;
+}
+
+.inputb label{
+    font-size: 1em;
+    color: white;
+}
+
+.inputb input:focus~label,
+.inputb input:valid~label{
+    top
+}
+
+
+
+.forgotpass{
+    margin: -15px 0 10px;
+    text-align: center;
+
+}
+
+.forgotpass a{
+    font-size: .85em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #24b5a7;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.signup{
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.signup a{
+    font-size: 1em;
+    color: #11700c;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}
